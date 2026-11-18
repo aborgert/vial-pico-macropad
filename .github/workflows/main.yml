@@ -18,8 +18,8 @@ name: Build kevin_fuu
 on:
   push:
     paths:
-      - "keyboards/handwired/kevin_fuu/**"
-      - ".github/workflows/build.yml"
+      - "keymaps/**"
+      - ".github/workflows/main.yml"
   workflow_dispatch:   # allows manual trigger from GitHub Actions UI
 jobs:
   build:
