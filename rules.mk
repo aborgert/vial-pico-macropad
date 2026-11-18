@@ -14,3 +14,5 @@
 # keyboard.json schema does not support these as features keys.
 LTO_ENABLE = yes
 NKRO_ENABLE = yes
+RGBLIGHT_ENABLE = yes
+WS2812_DRIVER = vendor
